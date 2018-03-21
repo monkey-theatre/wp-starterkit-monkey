@@ -57,5 +57,6 @@ require_once get_template_directory() . '/wp-assets/functions/tgm/tgm-reqplugins
 *******************************************************************************/
 if ( file_exists( get_template_directory() .'/wp-assets/framework/titan-framework/titan-init.php') ) {
 	require_once get_template_directory() . '/wp-assets/framework/titan-framework/titan-init.php';
+		require_once get_template_directory() . '/wp-assets/framework/titan-framework/options/adminpanel-options-init.php';
 }
 ?>

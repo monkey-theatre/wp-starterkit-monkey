@@ -16,7 +16,11 @@
 ****************************************************/    
 ?>
 
-
+<?php 
+/**********************
+FOOTER MENÙ 
+**********************/
+?> <?php get_template_part( 'wp-assets/template-parts/menu/footer', 'main' ); ?>
 
 	
 	<?php wp_footer(); ?>

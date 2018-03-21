@@ -13,6 +13,9 @@
 //WP UNDERSTRAP SETUP
 require_once get_template_directory() . '/wp-assets/functions/snippet-default/setup.php';
 
+//DEFAULT
+require_once get_template_directory() . '/wp-assets/functions/snippet-default/menu.php';
+
 //ENQUEUE
 require_once get_template_directory() . '/wp-assets/functions/snippet-default/enqueue-style.php';
 require_once get_template_directory() . '/wp-assets/functions/snippet-default/enqueue-script.php';

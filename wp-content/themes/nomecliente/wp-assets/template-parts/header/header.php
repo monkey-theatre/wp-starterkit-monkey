@@ -15,3 +15,9 @@
 * HEADER + MENU  
 ****************************************************/    
 ?>
+
+<?php 
+/**********************
+MAIN MENÙ - BOOTSTRAP NAVWALKER
+**********************/
+?> <?php get_template_part( 'wp-assets/template-parts/menu/menu', 'main' ); ?>
